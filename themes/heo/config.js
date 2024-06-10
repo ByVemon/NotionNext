@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '凛冬散尽，星河长明', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到我的博客', url: '' },
+    { title: '凛冬散尽，星河长明', url: '' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -23,8 +23,8 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'https://github.com/ByVemon',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '学习笔记', url: '/tag/学习笔记' },
-  HEO_HERO_CATEGORY_2: { title: '心情随笔', url: '/tag/心情随笔' },
+  HEO_HERO_CATEGORY_1: { title: '心情随笔', url: '/tag/心情随笔' },
+  HEO_HERO_CATEGORY_2: { title: '学习笔记', url: '/tag/学习笔记' },
   HEO_HERO_CATEGORY_3: { title: '拓展技能', url: '/tag/拓展技能' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
